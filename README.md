@@ -1,6 +1,8 @@
 Smeedish currently only supports PHP but with plans to add a golang SDK shortly after on this repository.
 
 ```php
+use Smeed;
+
 // Example of using the SDK
 
 $inputText = "hello world";

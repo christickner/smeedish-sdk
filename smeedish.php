@@ -90,3 +90,10 @@ class Smeedish {
         return $characters[rand(0, strlen($characters) - 1)];
     }
 }
+
+// Example of using the SDK
+
+$inputText = "hello world";
+$encryptedText = Smeedish::encrypt($inputText);
+echo "Original: $inputText\n";
+echo "Encrypted: $encryptedText\n";
